@@ -9,7 +9,7 @@ function get_username(){
     }
     return value;
 }
-if(window.location.pathname==='/~annikaconley/HW5/index.html'|| window.location.pathname==='/~annikaconley/HW5/'){
+//if(window.location.pathname==='/~annikaconley/HW5/index.html'|| window.location.pathname==='/~annikaconley/HW5/'){
     let greeting= document.getElementById('greeting'); 
     let isCookieVal=get_username();
     if(isCookieVal!==''){
@@ -18,6 +18,6 @@ if(window.location.pathname==='/~annikaconley/HW5/index.html'|| window.location.
     if(isCookieVal===''){
         window.location.assign('login.html');
     }
-}
+//}
 
   
